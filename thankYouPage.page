@@ -1,0 +1,43 @@
+<apex:page showHeader="false" sidebar="false" docType="html-5.0">
+    <html>
+        <head>
+            <style>
+                .container{
+                margin: 5%;
+                }
+                .text-head{
+                font-size: 35px;
+                font-weight: 400;
+                }
+                .text-small{
+                font-size: 16px;
+                }
+                .image-class{
+                fill: green !important;
+                width: 4rem !important;
+                height: 4rem !important;
+                }
+            </style>
+            <apex:slds />
+        </head>
+        <body>
+            <div class="slds-scope">
+                <div class="container">
+                    <div class="slds-text-align_center">
+                        <!--image tick-->
+                        <svg class="slds-icon slds-icon-text-default image-class" aria-hidden="true">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/apexpages/slds/latest/assets/icons/utility-sprite/svg/symbols.svg#check"></use>
+                        </svg>
+
+                    </div>
+                    <div class="slds-text-align_center">
+                        <p class="text-head">Thank you</p>
+                        
+                        <p class="slds-m-top_large text-small">You are all set! Your request have been sent for processing. We will provide you a confirmation email once done. 
+                            It usually takes ? days to process this type of request. Meanwhile if you have further qustions please call our call center.</p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </html>
+</apex:page>
