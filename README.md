@@ -1,2 +1,2 @@
 # thank-you-page
-Simple thank you page design using SLDS
+Responsive thank you page design using SLDS
